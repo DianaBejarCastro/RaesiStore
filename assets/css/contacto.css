@@ -1,0 +1,109 @@
+
+.container-information {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+    }
+    .container-info {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    }
+    .mapa-information {
+    width: 600px;
+    margin-left: 50.5px;
+    }
+    /*FORMULARIO DE CONTACTO*/
+    .div-info {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+    .formulario-information {
+    width: 600px;
+    }
+    .div-titulo h2 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 50px;
+    }
+    
+    .form-control {
+    border: none;
+    border-bottom: 1px solid #c1c1c1;
+    border-radius: 0;
+    margin-bottom: 20px;
+    padding: 15px 0;
+    font-size: 15px;
+    line-height: 1;
+    background-color: transparent;
+    color: rgba(51, 51, 51, 0.60);
+    display: block;
+    width: 100%;
+    background-image: none;
+    background-clip: padding-box;
+    }
+    iframe{
+    width: 100%;
+    }
+    input[type="submit"]{
+    position: relative;
+    padding: .5em 2em;
+    border: 2px solid #6b6b6b;
+    border-radius: 3px;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.7em!important;
+    transition: all .2s;
+    color: #000000;
+    border-radius: 3px;
+    display: inline-block;
+    }
+    input[type="submit"]:hover{
+    cursor: pointer;
+    }
+    
+    
+    
+    
+    
+    @media screen and (max-width:800px) 
+    {
+        
+         
+         
+        .container-info {
+            flex-wrap: wrap;
+        }
+        /*CONTACTO */
+       
+        iframe{
+            width: 100%;
+        }
+        .mapa-information {
+            width: 600px;
+            margin: 0;
+        }
+        .information-div{
+            width: auto;
+        }
+        .containerimg 
+        {
+            grid-template-columns: 1fr  ;
+        }
+    }
+    
+    
